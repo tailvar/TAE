@@ -1,0 +1,10 @@
+name: TAE
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - numpy
+  - matplotlib
+  - pandas
+  - scikit-learn
+prefix: /home/oem/miniconda3/envs/TAE
