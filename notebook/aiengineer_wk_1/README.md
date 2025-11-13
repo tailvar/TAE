@@ -1,5 +1,9 @@
 # Gradient-Based Optimization Case Study
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](
+https://colab.research.google.com/github/tailvar/TAE/notebook/aiengineer_wk_1/tae_capstone_wk1.ipynb
+)
+
 ## Overview
 
 This project explores the relationship between calculus-based analysis and first-order optimization methods.  
@@ -7,7 +11,7 @@ Starting from the one-dimensional function
 
 $f(x) = \left| \tfrac{1}{2}x^{3} - \tfrac{3}{2}x^{2} \right| + \tfrac{1}{2}x$
 
-we analyse its shape, stationary points, and global minima, then examine how various gradient-based algorithms behave when applied to it.
+Notebook analyses its shape, stationary points, and global minima, then examine how various gradient-based algorithms behave when applied to it.
 
 The goal is to understand how **learning rate (η)**, **momentum (β)**, **noise (σ)**, and **decay (γ)** influence convergence, stability, and performance near non-smooth points (such as the kink at \(x = 3\)).
 
@@ -87,12 +91,3 @@ No external datasets are used. All results are generated from the analytical fun
 Clone or open the notebook in JupyterLab or Google Colab.
 
 Run all cells in order.
-
-Each section generates:
-
-    Plots of trajectories
-
-    Metrics tables
-
-    Commentary cells explaining the observed dynamics
-
