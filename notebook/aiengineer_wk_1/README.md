@@ -31,9 +31,9 @@ The goal is to understand how **learning rate (η)**, **momentum (β)**, **noise
 
 ### 3. SGD with Decaying Learning Rate
 - Implements a dynamic learning-rate schedule  
-  \[
-  \eta_k = \frac{\eta_0}{1 + \gamma k}.
-  \]
+$$
+\eta_k = \frac{\eta_0}{1 + \gamma k}
+$$
 - Shows that gradually reducing the step size improves stability over time and helps escape oscillations around non-smooth regions.  
 - Compares parameter combinations such as (η₀ = 0.2, γ = 0.02) and (η₀ = 0.1, γ = 0.05).
 
@@ -48,9 +48,9 @@ The goal is to understand how **learning rate (η)**, **momentum (β)**, **noise
 
 ### 5. Metrics and Diagnostics
 Each run computes:
-- Final gap: \( f(x_K) - f(x^*) \)
-- Best-so-far gap: \( \min_{k \le K} f(x_k) - f(x^*) \)
-- Iterations to reach a tolerance threshold (e.g., \( f(x_k) - f(x^*) < 0.1 \))
+- Final gap: $ f(x_K) - f(x^*) $
+- Best-so-far gap: $ \min_{k \le K} f(x_k) - f(x^*) $
+- Iterations to reach a tolerance threshold (e.g., $ f(x_k) - f(x^*) < 0.1 $)
 
 These metrics quantify how efficiently each algorithm reaches the vicinity of the optimum.
 
